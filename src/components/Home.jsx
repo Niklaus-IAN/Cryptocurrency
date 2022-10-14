@@ -9,7 +9,6 @@ import FifthSection from './Section5';
 import SixthSection from './Section6';
 import SeventhSection from './Section7';
 import EigthSection from './Section8';
-// import CardSlider from './Cardslider';
 
 const Home = () => {
     return ( 
@@ -18,7 +17,6 @@ const Home = () => {
             {/* <SecondSection /> */}
             {/* <ThirdSection /> */}
             <Slideshow />
-            {/* <CardSlider /> */}
             <FourthSection />
             <FifthSection />
             <SixthSection />
