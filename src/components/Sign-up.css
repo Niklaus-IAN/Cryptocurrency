@@ -1,0 +1,82 @@
+.whiteConnector {
+    background-image: url("./imagez/white-bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.5rem;
+    font-family: "Comic Neue", "Lato";
+}
+
+.formage {
+    padding: 1.5rem 4rem 0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.formage button {
+    display: block;
+    height: 3rem;
+    width: 8.5rem;
+    cursor: pointer;
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    font-family: "Comic Neue", "Lato";
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 2rem 0rem;
+}
+
+form {
+    width: 45%;
+}
+
+.formage button:hover {
+    color: black;
+}
+
+.formage h2 {
+    font-size: 1.6rem;
+    display: block;
+}
+
+.formage input {
+    height: 2rem;
+    width: 36rem;
+    font-family: "Comic Neue", "Lato";
+    font-weight: bold;
+}
+
+.mage {
+    position: relative;
+}
+
+.mage2 {
+    position: absolute;
+    height: 25rem;
+    width: 37rem;
+    top: 9rem;
+    left: 5.5rem;
+}
+
+.mage1 {
+    position: absolute;
+    height: 24rem;
+    width: 13rem;
+    z-index: 1;
+    top: 3rem;
+    left: 4rem;
+}
+
+.mage3 {
+    position: absolute;
+    height: 31rem;
+    width: 22rem;
+    z-index: 1;
+    top: 0rem;
+    left: 25.3rem;
+    rotate: 270deg;
+}
+
+.pwtoogle {
+    display: block;
+    margin: -2rem 0rem 0rem 19.5rem;
+}

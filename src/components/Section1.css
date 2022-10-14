@@ -1,0 +1,110 @@
+/* :root {
+    --animate-duration: 15s;
+    --animate-delay: 5s;
+    --animate-repeat: 1;
+} */
+
+section {
+    margin-top: 90px;
+}
+
+.about {
+    /* background-image: url("./imagez/white-bkg.jpg"); */
+    width: 50%;
+    height: 960px;
+    background-color: whitesmoke;
+}
+
+.info {
+    margin: 2.5rem;
+    height: 55rem;
+    background-color: transparent;
+    padding: 2rem;
+    opacity: 0.8;
+}
+
+.pic {
+    width: 50%; 
+}
+
+.pic img {
+    height: 60rem;
+    margin: 0px;
+    width: 100%;
+}   
+
+.info h1 {
+    font-family: Lato, sans-serif;
+    margin-top: 2rem;
+}
+
+.uppercase{
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 1.2s;
+}
+
+
+.zoom-in {
+    animation: zoomIn;
+    animation-duration: 4s;
+}
+
+.drop-down {
+    animation: fadeInDownBig;
+    animation-duration: 3s;
+    animation-delay: 0.5ms;
+}
+
+.uppercase.one, .zoom-in {
+    animation-delay: 1.2s;
+}
+
+.uppercase::first-letter {
+    font-size: 4rem;
+}
+
+.info h3 {
+    font-family: "Barlow Semi Condensed";
+    letter-spacing: 1.5px;
+    line-height: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+#goat:hover {
+    color: whitesmoke;
+}
+
+#goat {
+    padding: 10px;
+    color: #DFF6FF;
+    list-style: none;
+    font-family: "Barlow Semi Condensed";
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+button {
+    border-radius: 10px;
+    background-color: #0F3460;
+}
+
+button:hover {
+    background-color: #AAD8D3;
+    opacity: 1;
+}
+
+#goat:hover {
+    color: black;
+}
+
+.animate__animated.animate__slideInRight {
+    --animate-duration: 1s;
+}
+  
+  /* This changes all the animations globally */
+:root {
+    /* --animate-duration: 800ms; */
+    --animate-delay: 0.9s;
+}

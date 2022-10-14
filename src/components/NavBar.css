@@ -1,0 +1,84 @@
+.nav {
+    top: 0;
+    position: fixed;
+    display: flex;
+    z-index: 300;
+    background-color: #06283D;
+    width: 100%;
+    height: 90px;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 0rem 2.5rem;
+}
+
+.nav:hover {
+    opacity: 0.9;
+}
+
+.ian {
+    display: block;
+    padding: 10px;
+}
+
+.ian h1{
+    font-family: "Dancing Script";
+    font-size: 3.5rem;
+    margin: 4px;
+}
+
+.ian h1 {
+    color: transparent;
+    background: linear-gradient(
+        to right,
+        #0F3460,
+        rgb(190, 19, 19)
+    );
+    -webkit-background-clip: text;
+}
+
+.boss {
+    display: contents;
+    width: auto;
+    align-items: center;
+}
+
+.boss ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.boss ul li {
+    display: block;
+    font-family: "Barlow Semi Condensed";
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #DFF6FF;
+}
+
+.boss ul li:hover, #goat:hover {
+    color: rgb(66, 66, 66);
+}
+
+#goat {
+    padding: 10px;
+    color: #DFF6FF;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #0F3460;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}

@@ -1,0 +1,139 @@
+.s7 {
+    height: auto;
+    width: 70%;
+    background-color: transparent;
+    margin: 3rem auto;
+    gap: 1.5rem;
+}
+
+.cycle {
+    width: 100%;
+    height: 61.5028rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    rotate: 0deg;
+}
+
+.cycle img {
+    position: absolute;
+}
+
+.barnz {
+    height: 9em;
+    width: 10rem;
+}
+
+.a1 {
+    top: 16rem;
+    left: 2.5rem;
+    rotate: 328deg;
+}
+
+.a2 {
+    rotate: 104deg;
+    left: 49rem;
+    top: 15rem;
+}
+
+.a3 {
+    rotate: 170deg;
+    top: 40rem;
+    left: 48rem;
+}
+
+.a4 {
+    rotate: 270deg;
+    top: 43rem;
+    left: 6rem;
+}
+
+.a5 {
+    rotate: 40deg;
+    top: 0rem;
+    left: 25.5rem;
+}
+
+.a6 {
+    rotate: 217deg;
+    top: 52.3rem;
+    left: 27rem;
+}
+
+.barz {
+    height:15rem;
+    width: 15rem;
+}
+
+.b6 {
+    top: 6rem;
+    left: 35rem;
+    border-radius: 50%;
+    height: 14rem;
+    width: 14rem;
+}
+
+.b1 {
+    top: 6rem;
+    left: 12rem;
+}
+
+.b2 {
+    top: 26.5rem;
+    left: 0rem;
+    height: 15rem;
+    width: 21rem;
+}
+.b3 {
+    top: 43rem;
+    left: 14rem;
+}
+
+.b4 {
+    border-radius: 50%;
+    top: 42.5rem;
+    left: 34.5rem;
+}
+
+.b5 {
+    border-radius: 50%;
+    top: 26rem;
+    left: 45rem;
+    height: 13.5rem;
+    width: 13.5rem;
+}
+
+.facts {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.facts h2 {
+    font-family: "Barlow Semi Condensed";
+    font-size: 2.6rem;
+    padding: 0.5rem 9rem;
+    margin: 0.5rem;
+}
+
+.facts p {
+    font-size: 1.3rem;
+    margin: 1rem;
+    font-weight: 300;
+}
+
+.facts div {
+    display: inline-block;
+    margin: 1rem 1.15rem;
+    height: 13rem;
+    width: 13rem;
+}
+
+.facts h1 {
+    font-family: "Comic Neue", "Lato";
+    font-size: 5rem;
+    margin: 1rem auto;
+    color: #1073b0;
+}

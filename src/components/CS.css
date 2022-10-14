@@ -1,0 +1,86 @@
+.card {
+    height: 34rem;
+    width: auto;
+    background-color: transparent;
+    white-space: normal;
+
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.tie1 {
+    align-items: center;
+    height: 12rem;
+    width: auto;
+    padding: 0rem 3rem;
+    white-space: nowrap;
+    /* transition: ease-in 1000ms; */
+    transition: linear 1000ms;
+    margin-top: 0.5rem;
+}
+
+.tie2 {
+    align-items: center;
+    height: 12rem;
+    width: auto;
+    padding: 0rem 3rem;
+    white-space: nowrap;
+    transition: linear 1000ms;
+}
+
+.tie1 .nag {
+    margin: 3rem 7rem;
+    height: 12rem;
+    width: 14rem;
+    background-color: rgb(241, 241, 241);
+    opacity: 0.8;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tie2 .nag {
+    margin: 7rem 7rem 3rem;
+    height: 12rem;
+    width: 14rem;
+    background-color: rgb(241, 241, 241);
+    opacity: 0.8;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nag:hover {
+    transform: scale(1.1);
+    animation: ease-in-out;
+    animation-duration: .4s;
+    opacity: 1;
+}
+
+.nag img {
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    top: -43px;
+    left: 4.2rem;
+}
+
+.nag h2 {
+    margin-top: 2.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+    font-family: "Aref Ruqaa Ink", "serif";
+}
+
+.nag h3 {
+    color: #1363DF;
+    font-family: "Barlow Semi Condensed";
+    margin-top: 0rem;
+    font-size: 2.0rem;
+    margin-bottom: 0.5rem;
+}

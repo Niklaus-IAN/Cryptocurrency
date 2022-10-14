@@ -1,0 +1,146 @@
+.footerhouse {
+    display: flex;
+    /* background-color: #47B5FF; */
+    background: linear-gradient(
+        to bottom,
+        #bcd1d9,
+        #79d2f5,
+        #47B5FF,
+        #039cfa,
+        #1363DF
+    );
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 2.5rem;
+    flex-direction: row;
+    gap: 2rem;
+    font-family: "Comic Neue", "Lato";
+}
+
+/* .rest {
+    height: inherit;
+    width: 100%;
+    background-color: transparent;
+} */
+
+.fhouse01 {
+    height: 33rem;
+    width: 45%;
+    background-color: transparent;
+    padding: 2rem 1rem;
+}
+
+.fhouse01 h3, .fhouse02 h3 {
+    font-size: 1.3rem;
+    margin: 1.5rem 0rem;
+    color: #DFF6FF;
+    font-weight: 900;
+}
+
+.fhouse01 h4 {
+    font-size: 1.3rem;
+    margin: 1.5rem 7rem 1rem 0rem;
+    color: #06283D;
+}
+
+.fhouse01 img {
+    display: inline-block;
+    height: 3.5rem;
+    width: 4rem;
+    padding-top: 0rem;
+    margin: 0rem 0.5rem;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.fhouse01 img:hover {
+    transform: scale(1.2);
+}
+
+.klaus:hover {
+    transform: scale(1.02);
+    animation-duration: .4s ease-in-out;
+}
+
+.fhouse02 {
+    height: 33rem;
+    width: 55%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+}
+
+.fh02c01, .fh02c03 {
+    height: inherit;
+    width: 32%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fh02c02 {
+    height: inherit;
+    width: 36%;
+    background-color: transparent;
+}
+
+.fh02c02 h3 {
+    margin: 24px 3.2rem 24px 1rem;
+}
+
+.fh02c02 ul {
+    text-align: left;
+    margin: 1rem 3rem;
+}
+
+.fh02c02 ul li {
+    margin-bottom: 1.6rem;
+}
+
+.c01, .c03 {
+    height: 25rem;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+
+.fhouse02 h4 {
+    font-family: "Poppins", "Lato";
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0.7rem auto;
+}
+
+.copyright {
+    background-color: #06283D;
+    height: auto;
+    width: 100%;
+    color: #DFF6FF;
+    font-family: "Barlow Semi Condensed";
+    text-align: center;
+}
+
+.copyright img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.copyright h2 {
+    font-size: 1.4rem;
+    margin: 0rem;
+    padding: 0.7rem;
+}
+
+.sapa {
+    font-size: 1rem;
+}
+
+
+/* #1363DF */
+/* #0984d0  */
+/* #47B5FF */
+/* #DFF6FF */

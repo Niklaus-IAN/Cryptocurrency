@@ -1,0 +1,47 @@
+.s8 {
+    height: auto;
+    width: 70%;
+    background-color: transparent;
+    margin: 3rem auto;
+    gap: 1.5rem;
+}
+
+.factz {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.factz h1 {
+    font-family: "Poppins", "Lato";
+    font-size: 5rem;
+    display: block;
+    margin: 1.5rem auto;
+    color: #0984d0;
+}
+
+.factz h2 {
+    font-family: "Comic Neue", "Lato";
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem auto;
+}
+
+.factz p {
+    font-size: 7rem;
+    font-weight: 800;
+    margin: 1rem;
+}
+
+.factz div {
+    display: inline-block;
+    margin: 1rem 0rem;
+    height: 13rem;
+    width: 13rem;
+}
+
+span {
+    font-size: 9.5rem;
+    font-weight: 100;
+}

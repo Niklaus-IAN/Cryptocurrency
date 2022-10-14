@@ -1,0 +1,73 @@
+.tank {
+    height: 35rem;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+}
+
+.btc {
+    height: 18rem;
+    width: 25rem;
+    position: absolute;
+    top: 20vh;
+    left: 38vw;
+}
+
+.eos {
+    height: 13rem;
+    width: 16rem;
+    position: absolute;
+}
+
+.dash {
+    height: 14rem;
+    width: 24rem;
+    position: absolute;
+    top: 21rem;
+    left: 64rem;
+}
+
+.usdc {
+    height: 8rem;
+    width: 22rem;
+    position: absolute;
+    top: 26rem;
+}
+
+.eth {
+    height: 20rem;
+    width: 14rem;
+    /* position: absolute; */
+    float: right;
+}
+
+.stel {
+    height: 8rem;
+    width: 22rem;
+    position: absolute;
+    left: 10rem;
+    top: 15rem;
+    /* top: 26rem; */
+}
+
+.card {
+    height: 8rem;
+    width: 22rem;
+    position: absolute;
+    left: 56rem;
+}
+
+.rip {
+    height: 10rem;
+    width: 22rem;
+    position: absolute;
+    left: 20rem;
+}
+
+.doge {
+    height: 8rem;
+    width: 25rem;
+    position: absolute;
+    left: 29rem;
+    top: 27rem;
+}

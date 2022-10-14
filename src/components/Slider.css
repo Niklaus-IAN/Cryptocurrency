@@ -1,0 +1,87 @@
+.sliderz {
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem;
+    /* background-image: url("./imagez/circuit-ai.jpg"); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slideshow {
+    margin: 5px 0px;
+    overflow: hidden;
+    width: 50%;
+    height: 34rem;
+}
+
+.vik {
+    /* background-color: blanchedalmond; */
+}
+
+.vic, .vik {
+    /* background-color: rgb(241, 241, 241); */
+    opacity: 0.8;
+}
+
+.slide {
+    display: inline-block;
+    height: 34rem;
+    width: 100%;
+}
+
+.slide img {
+    margin: 3px 0px;
+    padding: 10px 0px;
+    width: 100%;
+    height: 34rem;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.slideshowSliderz {
+    white-space: normal;
+    animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.sliderz h1 {
+    text-align: center;
+    font-family: "Aref Ruqaa Ink", "serif";
+    font-size: 4rem;
+    display: block;
+    margin: 1rem 0rem;
+}
+
+.sliderz p {
+    font-size: 1.5rem;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+    line-height: 2.3rem ;
+}
+
+.tycoon {
+    height: 34rem;
+    width: 100%;
+    padding: 0rem 1rem;
+    /* display: block; */
+}
+
+.tycoon p {
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sliderz img {
+    margin: 2rem 0rem;
+    height: 30rem;
+    width: 40rem;
+    float: right;
+}

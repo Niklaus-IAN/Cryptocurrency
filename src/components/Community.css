@@ -1,0 +1,196 @@
+.repo {
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+
+.commute {
+    background-image: url("./imagez/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    /* text-align: center; */
+    font-family: 'Poppins', 'Lato';
+}
+
+.response {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    gap: 2rem;
+}
+
+.bout1 {
+    width: 45%;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.bout1 h1 {
+    font-size: 4.2rem;
+    margin: 1rem auto;
+    color: #06283D;
+}
+
+.bout2 {
+    width: 55%;
+    margin: 2rem auto;
+}
+
+.bout img {
+    width: 100%;
+}
+
+.vid {
+    width: 70%;
+    height: 30rem;
+    margin: 4rem auto;
+    background-color: #d6eafb;
+    border-radius: 3rem;
+}
+
+.vid video {
+    width: 100%;
+    height: inherit;
+}
+
+.chat {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 4rem auto;
+    gap: 2rem;
+    font-family: 'Poppins', 'Lato';
+}
+
+.chats {
+    width: 50%;
+}
+
+.ting {
+    margin: 4rem auto;
+}
+
+.chats img {
+    width: 100%;
+}
+
+.chats h1 {
+    font-size: 4.2rem;
+    margin: 1rem auto;
+    color: #06283D;
+}
+
+.zhat {
+    height: 35rem;
+}
+
+.greet {
+    font-family: "Comic Neue", "Lato";
+    font-size: 2.8rem;
+    margin-top: 0rem;
+    margin-bottom: 0.7rem;
+    color: brown;
+}
+
+.naming {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    /* font-family: "Barlow Semi Condensed"; */
+    font-size: 3.5rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    display: inline-block;
+}
+
+.p01 {
+    font-weight: 200;
+}
+
+.p02 {
+    padding-left: 1rem;
+    font-weight: 400;
+}
+
+.naming::first-letter{
+    text-transform: uppercase;
+}
+
+.rate {
+    width: 40%;
+    height: 50rem;
+    height: inherit;
+    background-color: transparent;
+}
+
+.rate div {
+    display: inline-block;
+}
+
+.rate img {
+    height: 4rem;
+    width: 4rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: auto 0.5rem;
+    cursor: pointer;
+}
+
+.rate img:hover{
+    transform: scale(1.1);
+}
+
+.berlin .star {
+    height: 3rem;
+    width: 3rem;
+}
+
+.berlin .star:hover {
+    transform: scale(1.1);
+}
+
+.messages {
+    width: 60%;
+    height: 50rem;
+    height: inherit;
+    background-color: transparent;
+}
+
+.messages h1 {
+    font-size: 2rem;
+    margin: 0.5rem auto;
+}
+
+#t-area {
+    max-width: 100%;
+} 
+
+.messages h2 {
+    font-size: 2rem;
+    margin: 2rem auto;
+    margin-bottom: 0.5rem;
+}
+
+.messages button{
+    display: block;
+    margin-top: 1.5rem;
+    width: 7rem;
+}
+
+
+
+
+/* #d6eafb */
+
+/* #06283D */
+/* #1363DF */
+/* #0984d0  */
+/* #47B5FF */
+/* #DFF6FF */
+/* rgb(241, 241, 241) */

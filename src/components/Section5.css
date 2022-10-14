@@ -1,0 +1,78 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 9rem;
+    font-size: "Poppins", "Lato";
+}
+
+.entails {
+    width: 80%;
+    height: 38rem;
+    margin: 0 auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.intel {
+    width: 55%;
+    background-color: transparent;
+    padding: 2rem 3rem 2rem 0rem;
+}
+
+.pictures {
+    width: 45%;
+    background-color: transparent;
+}
+
+.bug {
+    /* width: 50%; */
+    height: 38rem;
+}
+
+.bug img {
+    margin: 4rem 0rem;
+    width: 100%;
+    height: 20rem;
+    border-radius: 30px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.bug ul {
+    padding-inline-start: 1rem;
+}
+
+.bug button {
+    height: 3rem;
+    width: 8.5rem;
+    cursor: pointer;
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed';
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+
+.bug button:hover {
+    color: black;
+}
+
+.bug h1 {
+    font-size: 2.0rem;
+    color: #033a8d;
+}
+
+.bug p {
+    font-size: 1.3rem;
+    margin: 2.2rem auto;
+    line-height: 1.7;
+}
+
+.bug li {
+    font-size: 1.3rem;
+    line-height: 2;
+}
+

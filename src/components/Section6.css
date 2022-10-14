@@ -1,0 +1,123 @@
+.sixsection {
+    margin: 2rem auto 4rem;
+    background-color: transparent;
+    font-family: 'Lato', 'Poppins';
+    height: 45rem;
+    width: 80%;
+    text-align: center;
+}
+
+.sixsection h1 {
+    font-size: 4rem;
+    color: #06283D;
+    margin-bottom: 2rem;
+}
+
+.slime {
+    position: relative;
+    display: flex;
+    margin: 0rem 22%;
+    justify-content: space-around;
+    border: 2px transparent;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.slime div {
+    border: 2px solid;
+    border-radius: 40px;
+    width: 170px;
+    height: 72.63px;
+    position: absolute;
+    top: -2px;
+    background-color: #06283D;
+    opacity: 0.8;
+    transition: ease-in-out .4s;
+}
+
+.slime h2 {
+    width: 170px;
+    padding: 0rem 0.7rem;
+    color: black;
+}
+
+.space {
+    position: relative;
+}
+
+.activity {
+    position: absolute;
+    margin-top: 4rem;
+    height: 510px;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    gap: 3rem;
+}
+
+.infos, .infosmage {
+    height: 510px;
+    background-color: transparent;
+    display: none;
+}
+
+.wobble:hover {
+    cursor: pointer;
+    animation: shakeX; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.infosmage img {
+    height: 350px;
+    width: 100%;
+    margin: 4.7rem 0rem;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.infos {
+    width: 60%;
+    text-align: start;
+    padding: 0rem;
+}
+
+.infos h1  {
+    font-family: "Barlow Semi Condensed";
+    font-size: 4rem;
+    margin: 1rem 0rem;
+}
+
+.infos h2 {
+    font-family: "Barlow Semi Condensed";
+    font-size: 2.5rem;
+    margin: 0.7rem 0rem;
+}
+
+.infos p {
+    font-size: 1.3rem;
+    margin: 0.5rem 0rem;
+    line-height: 2rem;
+}
+
+.infos button {
+    height: 3rem;
+    width: 30%;
+    border-radius: 2rem;
+    font-family: "Barlow Semi Condensed";
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 1.5px;
+    margin: 1rem 0rem;
+}
+
+.infos button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.infosmage {
+    width: 40%;
+}
