@@ -76,7 +76,7 @@ const Community = (props) => {
                 </div>
             </div>
             <div className="vid">
-                <video loop src={tradevid} />
+                <video loop autoPlay src={tradevid} />
             </div>
             <div className="chat">
                 <div className="chats">
