@@ -176,7 +176,8 @@
 }
 
 #t-area {
-    max-width: 100%;
+    max-width: 711px;
+    width: 711px;
 } 
 
 .messages h2 {

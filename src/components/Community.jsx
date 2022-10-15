@@ -154,11 +154,11 @@ const Community = (props) => {
                     <h1>
                         LEAVE A MESSAGE
                     </h1>
-                    <textarea type="text" name="" id="t-area" style={{maxHeight: "9rem"}} />
+                    <textarea type="text" name="" id="t-area" style={{maxHeight: "9rem", height: "144px"}} />
                     <h2>
                         Overall Report
                     </h2>
-                    <textarea type="text" name="" id="t-area" style={{maxHeight: "8rem"}}/>
+                    <textarea type="text" name="" id="t-area" style={{maxHeight: "8rem", height: "128px"}}/>
                     <button id='goat'>
                         SUBMIT
                     </button>
