@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dea78b4f.css",
-    "main.js": "/static/js/main.cca998bd.js",
+    "main.js": "/static/js/main.4d6461ce.js",
     "static/media/iphoneLight1.png": "/static/media/iphoneLight1.111ffc1890951c95a975.png",
     "static/media/trades.jpg": "/static/media/trades.e3f12fce5a6de0087013.jpg",
     "static/media/tradevideo.mp4": "/static/media/tradevideo.ed328c937b43ef3a1e9a.mp4",
@@ -61,10 +61,10 @@
     "index.html": "/index.html",
     "static/media/pattern-background-desktop.svg": "/static/media/pattern-background-desktop.5a0ab6898fc956557d00.svg",
     "main.dea78b4f.css.map": "/static/css/main.dea78b4f.css.map",
-    "main.cca998bd.js.map": "/static/js/main.cca998bd.js.map"
+    "main.4d6461ce.js.map": "/static/js/main.4d6461ce.js.map"
   },
   "entrypoints": [
     "static/css/main.dea78b4f.css",
-    "static/js/main.cca998bd.js"
+    "static/js/main.4d6461ce.js"
   ]
 }

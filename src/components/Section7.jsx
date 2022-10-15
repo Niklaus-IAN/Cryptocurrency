@@ -51,8 +51,17 @@ const SeventhSection = () => {
 
     // console.log(rotate);
 
+    // window.addEventListener('scroll', () => {
+    //     console.log('????');
+    // });
+
+    // const handleScroll = event => {
+    //     console.log('scrollTop: ', event.currentTarget.scrollTop);
+    //     console.log('offsetHeight: ', event.currentTarget.offsetHeight);
+    // };
+
     return ( 
-        <div className="s7">
+        <div className="s7" /*onScroll={handleScroll}*/>
             <div className='cycle' style={{rotate: `-${rotate}deg`}} data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img className='barnz a1' src={arrow} alt="" />
                 <img className='barnz a2' src={arrow} alt="" />

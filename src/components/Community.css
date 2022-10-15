@@ -35,6 +35,13 @@
     color: #06283D;
 }
 
+.bout1 p, .chats p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
 .bout2 {
     width: 55%;
     margin: 2rem auto;
@@ -81,12 +88,13 @@
 
 .chats h1 {
     font-size: 4.2rem;
-    margin: 1rem auto;
+    margin: 0.4rem auto;
     color: #06283D;
 }
 
 .zhat {
     height: 35rem;
+    margin-bottom: 0rem;
 }
 
 .greet {
