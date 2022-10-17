@@ -1,3 +1,32 @@
 {
-    "my-list": "yeah"
+    "testimonies": [
+        {
+            "Message": "A Beautiful Website, the UI is quite lovely and the UX is so so welcoming and lovely.",
+            "O_Report": "Remarkably One of A Kind, i would say. Nice work, maybe someday we could work together.",
+            "Avatar": "john",
+            "Rating": "",
+            "id": 1
+        },
+        {
+            "Message": "A Wonderful site, the UI is so entertaining and the UX is both friendly and interactive.",
+            "O_Report": "Remarkably One of the best website i have come across, i would say i legit fell in love with the whole site.",
+            "Avatar": "kira",
+            "Rating": "",
+            "id": 2
+        },
+        {
+            "Message": "An Exquisite site, the UI is so gracious and the UX is both friendly and interactive. It is like you are looking at an art work.",
+            "O_Report": "This is by far a wonderful Masterpiece, i would say i wouldn't mind paying heavily for this piece. Love xoxo",
+            "Avatar": "dem",
+            "Rating": "",
+            "id": 3
+        },
+        {
+            "Message": "An Exquisite site, the UI is so gracious and the UX is both friendly and interactive. It is like you are looking at an art work.",
+            "O_Report": "This is by far a wonderful Masterpiece, i would say i wouldn't mind paying heavily for this piece. Love xoxo",
+            "Avatar": "dan",
+            "Rating": "",
+            "id": 4
+        }
+    ]
 }

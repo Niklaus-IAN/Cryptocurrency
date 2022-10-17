@@ -31,7 +31,7 @@ const CardSlider = () => {
             ),
           delay
         );
-        console.log(index1);
+        // console.log(index1);
         return () => {};
     }, [index1]);
 
@@ -43,7 +43,7 @@ const CardSlider = () => {
             ),
           delay
         );
-        console.log(index2);
+        // console.log(index2);
         return () => {};
     }, [index2]);
     

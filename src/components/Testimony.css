@@ -1,0 +1,78 @@
+.testimonyCard {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    white-space: normal;
+    margin: 0 auto;
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+
+/* //#afcdd8 */
+
+.taiwan {
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 1rem 2.5rem;
+    /* background-color: #47B5FF; */
+    /* padding: 0rem 3rem; */
+    white-space: nowrap;
+    /* transition: ease-in 1000ms; */
+    transition: linear 1000ms;
+    /* margin-top: 0.5rem; */
+}
+
+.tokyo {
+    margin: 1rem 3rem 1rem 0rem;
+    height: 30rem;
+    width: 40vw;
+    background-color: #afcdd8;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* opacity: 0.8; */
+    border-radius: 20px;
+    display: inline-block;
+    text-align: left;
+    white-space: normal;
+    padding: 0rem 1rem;
+}
+
+.tokyo p {
+    font-weight: 400;
+    margin: 1.5rem 0rem;
+    line-height: 2rem;
+    font-style: italic;
+}
+
+.tokyo h2 {
+    -webkit-text-stroke-width: medium;
+    color: #06283D;
+    font-size: 2rem;
+    font-family: "Dancing Script";
+    font-weight: 500;
+    margin: 2rem 0rem 1rem;
+    letter-spacing: 2px;
+}
+
+.remi {
+    -webkit-text-stroke: thick;
+    margin: 0rem;
+    font-style: normal;
+}
+
+.tokyo img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+/* 
+#bcd1d9
+#79d2f5
+#47B5FF
+#039cfa
+#1363DF
+#06283D
+*/

@@ -44,6 +44,7 @@
 }
 
 .boss ul {
+    padding-right: 1rem;
     display: flex;
     list-style: none;
     justify-content: space-between;

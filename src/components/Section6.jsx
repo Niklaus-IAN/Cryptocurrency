@@ -120,7 +120,10 @@ const SixthSection = () => {
                         Learn Crypto is a free education platform designed to help users easily learn about cryptocurrency, with simple, relevant and engaging content.
                         </p>
                         <p>
-                        Start with cryptocurrency basics or choose from our common themes.
+                        Start with cryptocurrency basics or choose from our common themes. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                         <button>
                             START LEARNING

@@ -9,6 +9,7 @@ import FifthSection from './Section5';
 import SixthSection from './Section6';
 import SeventhSection from './Section7';
 import EigthSection from './Section8';
+import Testimonies from './Testimonial';
 
 const Home = () => {
     return ( 
@@ -21,6 +22,7 @@ const Home = () => {
             <FifthSection />
             <SixthSection />
             <SeventhSection />
+            <Testimonies />
             <EigthSection />
         </div>
     );

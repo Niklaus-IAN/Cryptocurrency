@@ -113,7 +113,7 @@ const Community = (props) => {
                     </p>
                 </div>
                 <div className="chats">
-                    <img src={learn} alt="" />
+                    <img style={{borderRadius: "0px 0px 150px 0px"}} src={learn} alt="" />
                 </div>
             </div>
 
