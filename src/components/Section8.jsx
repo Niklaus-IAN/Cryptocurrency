@@ -9,7 +9,7 @@ const EigthSection = () => {
     const [Second, changeSecond] = useState();
 
     const pdate = new Date();
-    const adate = new Date(2022, 9, 20, 12);
+    const adate = new Date(2022, 9, 31, 12);
     const calcdate = (adate.getTime() - pdate.getTime());
     
     const minute = 1000 * 60;
